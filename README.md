@@ -193,6 +193,6 @@ while (adding) {
 
 ## 💭 Reflection
 
-Actually, kalau cuma satu build lurus, array sudah cukup. Tapi di MLBB kita sering beradaptasi, jadi tree lebih pas karena dari satu akar we can see all possible routes tanpa perlu daftar tambahan. It's just way more cleaner.
+Actually, kalau cuma satu build lurus, array sudah cukup. Tapi di MLBB kita sering beradaptasi, jadi tree lebih pas karena dari satu akar, we can see all possible routes tanpa perlu daftar tambahan. It's just way more cleaner.
 
 Recursion terasa surprisingly intuitive when i saw `findPath()`, dia bisa mundur sendiri begitu menemui jalan buntu, like it instinctively knows when to backtrack from a dead end without any need for manual stack wrangling. Tantangan terberat adalah menjaga tree agar tidak menjadi cyclic, exactly when users attempt to add or remove items from the tree. Di sinilah BFS (Breadth‑First Search) bekerj, kita periksa pohon tingkat demi tingkat, mulai dari atas lalu turun ke bawah, sambil menandai simpul mana saja yang sudah kita kunjungi. Dengan begitu, program tidak akan terjebak berputar‑putar di tempat yang sama, tidak peduli sebanyak apa items that get thrown in or taken out.
