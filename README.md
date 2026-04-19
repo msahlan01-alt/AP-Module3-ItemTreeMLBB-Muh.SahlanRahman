@@ -1,5 +1,8 @@
 # 🌟 MLBB Magic Item Tree Lab
 
+![Version](https://img.shields.io/badge/version-1.0.0-maroon?style=flat-square&color=800020)
+![Java](https://img.shields.io/badge/Java-25-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+
 ## 📸 Screenshots
 Program execution results are available in the [`docs/`](docs/) folder.  
 Key parts captured include:
